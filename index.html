@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title>Competitive Learner</title>
+	<meta name="Description" content="Competitive Learning Simulator, by James Wilson. This tool simulates Self Organiing Maps, Growing Neural Gas, and other competitive learning algorithms, on a user configured 2 dimensional space, while allowing full customization of the key parameters. Great for visualizing what is actually going on with competitive learning algorithms."/>
+	<meta name="keywords" content="Web development projects by James Wilson."/>
+	<link href="css/style.css" rel="stylesheet" type="text/css"/>
+	<link href="css/ui.css" rel="stylesheet" type="text/css"/>
+	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script type="text/javascript" src="javascript/jquery-ui-1.10.1.custom.min.js"></script>
+	<script type="text/javascript" src="javascript/code.js"></script>
+	<script type="text/javascript" src="javascript/interface.js"></script>
+</head>
+
+<body>
+<div id="bg-gradient"></div>
+
+
+	<canvas class="canvas" id="shape-canvas">
+	</canvas>
+
+	<canvas class="canvas" id="node-canvas">
+	</canvas>
+
+	<canvas class="canvas" id="input-canvas">
+	I'm sorry; your browser does not support the HTML5 canvas element, which is vital to the running of this application. Please upgrade it in order to use this application.
+	</canvas>
+
+
+	<div id="options-box">
+		<div id="options-top"><div id="minimise-button" class="top-button up"></div></div>
+
+		<div id="basic-options">
+				<div class="button left" id="restart-button" title="Stop simulation"></div>
+				<div class="button left" id="play-button" title="Play simulation"></div>
+				<div class="button left" id="pause-button" title="Pause simulation"></div>
+				<div class="button right" id="shape-remove" title="Remove a shape"></div>
+				<div class="button right" id="shape-drag" title="Drag a shape to a new position"></div>
+				<div class="button right" id="shape-square" title="Draw a rectangle"></div>
+				<div class="button right" id="shape-circle" title="Draw a circle"></div>
+		</div>
+
+		<div id="stats">
+			<span id="cycles">Cycles: <span class="value">0</span></span>
+			<span id="nodes">Nodes: <span class="value">0</span></span>
+			<span id="links">Links: <span class="value">0</span></span>
+		</div>
+
+		<div id="option-container" style="display:none;">
+
+		</div>
+	</div>
+
+</body>
+
+</html>

@@ -2,7 +2,7 @@
 
 This canvas based JS application was one of the first such things I made while learning JavaScript, back in 2012. It follows the theme of my PhD and illustrates how a few different competitive learning algorithms work on simple, drawable 2 dimensional data. Great for visualising what's going on if you are interested in these things!
 
-Go [here](http://unbui.lt/projects/competitive/) to see it in action
+Go [here](http://jsdw.github.io/js-competitive-learning-simulator/) to see it in action
 
 ## How it works
 
